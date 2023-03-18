@@ -33,4 +33,12 @@ function init() {
   for (const key in KUTYAK[0]) {
     console.log(key, KUTYAK[0][key]);
   }
-}
+  for (let index = 0; index < KUTYAK.length; index++) {
+    console.log(index, ".kutya************")
+    for (const key in KUTYAK[index]) {
+        console.log(key,KUTYAK[index][key]);
+        }
+    }
+    
+  }
+
